@@ -1,6 +1,7 @@
-function toggleMode() {
+function toggleMode(event) {
     const html = document.documentElement
-          html.classList.toggle('light')
+          html.classList.toggle("light")
+         
     
     const img = document.querySelector("#profile img")
 
@@ -8,6 +9,7 @@ function toggleMode() {
         img.setAttribute('src', './assets/avatar-light.png')
     } else {
         img.setAttribute('src', './assets/avatar.png')
+ 
     }
-
+   
 }
