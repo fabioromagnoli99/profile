@@ -24,9 +24,13 @@
     --switch-bg-url: url(./assets/sun.svg);
 }
 
+html, body {
+    height: 100%;
+    overflow: hidden;
+  }
+
 body {
     background: var(--bg-url) no-repeat top center/cover;
-    height: 100vh;
 }
 
 body * {
@@ -35,7 +39,6 @@ body * {
 }
 
 #container {
-    width: 100%;
     max-width: 588px;
     margin: 56px auto 0px;
     padding: 0 24px;
